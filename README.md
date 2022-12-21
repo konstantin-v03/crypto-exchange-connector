@@ -1,9 +1,8 @@
-# crypto-exchange-connector
-Прослойка между Trading View Alerts и практически любой крипто-биржей. 
+A layer between Trading View Alerts and almost any crypto exchange.
 
-Инструкция:
-1. Добавить "index.py", "requirements.txt", "config.py" в Яндекс функции.
-2. В файле "index.py" можно изменить биржу или же futures на spot.
-3. В файле "config.py" укажите: api key, secret key, tg bot token, tg chat id.
-4. Настройте свою стратегию на Trading View (начальный капитал, комиссия и тд).
-5. Включите будильники (используйте в формате файла "trading_view_alert.txt" - пару нужно прописать руками из-за особенностей CCXT).
+Instruction:
+1. Add "index.py", "requirements.txt", "config.py" to Yandex functions.
+2. In the "index.py" file, you can change the crypto exchange or futures to spot.
+3. Specify in the "config.py" file: api key, secret key, tg bot token, tg chat id.
+4. Set up your strategy on Trading View (initial capital, commission, etc.).
+5. Turn on alarms (use in the file format "trading_view_alert.txt" - a symbol must be written by hand due to the features of CCXT).
